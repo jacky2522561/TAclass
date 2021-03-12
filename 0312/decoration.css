@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DFKai-sb;
+  text-align: center;
+}
+
+table {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+caption {
+  font: bold;
+  font-size: 35px;
+}
+
+td {
+  height: 40px;
+  width: 100px;
+}
+
+th {
+  height: 40px;
+  color: brown;
+  font-weight: bold;
+}
+
+.st {
+  width: 100px;
+}
