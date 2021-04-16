@@ -7,6 +7,11 @@
 }
 
 table {
+  border-radius: 5px;
+  border-width: 10px;
+  border-color: burlywood;
+  border-left-style: dashed;
+  border-right-style: dashed;
   width: 1000px;
   margin: 30px auto;
 }
@@ -22,11 +27,14 @@ caption {
 }
 
 td {
+  border-spacing: 2px;
+  border-width: 2px;
   height: 40px;
   width: 100px;
 }
 
 th {
+  border-width: 2px;
   height: 40px;
   color: brown;
   font-weight: bold;
@@ -34,4 +42,12 @@ th {
 
 .st {
   width: 100px;
+}
+
+body {
+  background-image: url(./background-with-dog-paw-print-and-bone-vector-2669100.jpg);
+}
+
+#name {
+  border-bottom: dotted;
 }
